@@ -10,7 +10,7 @@ CREATE TABLE IF NOT EXISTS `blog_posts` (
   `created_at` timestamp NULL DEFAULT CURRENT_TIMESTAMP,
   `updated_at` timestamp NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
   `published_at` timestamp NULL DEFAULT NULL,
-  `author_id` int(11) DEFAULT NULL,
+  `author_id` int(11) DEFAULT NULL, 
   `views` int(11) DEFAULT 0,
   `meta_title` varchar(255) DEFAULT NULL,
   `meta_description` text,
