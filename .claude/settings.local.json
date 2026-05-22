@@ -1,0 +1,19 @@
+{
+  "permissions": {
+    "allow": [
+      "PowerShell(& \"C:\\\\xampp\\\\mysql\\\\bin\\\\mysql.exe\" -u root --password=\"\" -e \"SELECT id, name FROM msv.cities WHERE id=8; SHOW COLUMNS FROM msv.properties;\" 2>$null)",
+      "PowerShell(& \"C:\\\\xampp\\\\mysql\\\\bin\\\\mysql.exe\" -u root --password=\"\" -e \"SELECT id, name, process, city, location, main_image, price FROM msv.properties;\" 2>$null)",
+      "PowerShell(Get-ChildItem \"C:\\\\xampp\\\\htdocs\\\\sky\\\\assets\\\\images\\\\property\\\\\" | Select-Object -First 5 Name; Write-Host \"Total: $\\(\\(Get-ChildItem 'C:\\\\xampp\\\\htdocs\\\\sky\\\\assets\\\\images\\\\property\\\\' -ErrorAction SilentlyContinue\\).Count\\)\")",
+      "PowerShell(& \"C:\\\\xampp\\\\mysql\\\\bin\\\\mysql.exe\" -u root -e \"SHOW DATABASES;\" 2>&1)",
+      "PowerShell(& \"C:\\\\xampp\\\\mysql\\\\bin\\\\mysql.exe\" -u root -e \"SHOW DATABASES LIKE '%gem%';\" 2>&1)",
+      "PowerShell(& \"C:\\\\xampp\\\\mysql\\\\bin\\\\mysql.exe\" -u root -e \"SHOW DATABASES LIKE '%sky%';\" 2>&1)",
+      "PowerShell(netstat -ano)",
+      "PowerShell(head -10)",
+      "PowerShell(Get-Process | Where-Object { $_.Id -eq 9168 } 2>&1; Get-NetTCPConnection -LocalPort 80 -ErrorAction SilentlyContinue | Select-Object LocalAddress, LocalPort, State, OwningProcess)",
+      "PowerShell(Invoke-WebRequest -Uri \"http://localhost\" -UseBasicParsing -TimeoutSec 5)",
+      "PowerShell(Get-NetTCPConnection -LocalPort 80 -ErrorAction SilentlyContinue | ForEach-Object { $p = Get-Process -Id $_.OwningProcess -ErrorAction SilentlyContinue; [PSCustomObject]@{Port=80; PID=$_.OwningProcess; Process=$p.Name; State=$_.State} })",
+      "PowerShell(Get-NetTCPConnection -LocalPort 443 -ErrorAction SilentlyContinue | ForEach-Object { $p = Get-Process -Id $_.OwningProcess -ErrorAction SilentlyContinue; [PSCustomObject]@{Port=443; PID=$_.OwningProcess; Process=$p.Name; State=$_.State} })",
+      "PowerShell(& \"C:\\\\xampp\\\\apache\\\\bin\\\\httpd.exe\" -t 2>&1)"
+    ]
+  }
+}
