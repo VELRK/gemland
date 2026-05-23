@@ -21,6 +21,7 @@ class Admin extends CI_Controller {
         $this->load->model('Process_model');
         $this->load->library('session');
         $this->load->helper('url');
+        
     }
 
     private function check_login()

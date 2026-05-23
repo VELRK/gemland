@@ -65,9 +65,9 @@
                             <li class="nav-item"><a class="nav-link <?php echo ($page === 'contact') ? 'active' : ''; ?>" href="<?php echo site_url('contact'); ?>">Contact Us</a></li>
                         </ul>
                     </div>
-                    <div class="header-btn">
+                    <!-- <div class="header-btn">
                         <a href="<?php echo site_url('contact'); ?>" class="btn-default">Get Free Quote</a>
-                    </div>
+                    </div> -->
                 </div>
                 <div class="navbar-toggle"></div>
             </div>
