@@ -38,15 +38,15 @@
                         <div class="hero-counter-list wow fadeInUp">
                             <!-- Hero Counter Item Start -->
                             <div class="hero-counter-item">
-                                <h2><span class="counter">15</span>+</h2>
-                                <p>Years of Experience</p>
+                                <!-- <h2><span class="counter">15</span>+</h2>
+                                <p>Years of Experience</p> -->
                             </div>
                             <!-- Hero Counter Item End -->
 
                             <!-- Hero Counter Item Start -->
                             <div class="hero-counter-item">
-                                <h2><span class="counter">10</span>+</h2>
-                                <p>Project Completed</p>
+                                <!-- <h2><span class="counter">10</span>+</h2>
+                                <p>Project Completed</p> -->
                             </div>
                             <!-- Hero Counter Item End -->
                         </div>
@@ -87,9 +87,9 @@
                                 <!-- Hero Rating Box Header End -->
 
                                 <!-- Hero Rating Box Content Start -->
-                                <div class="hero-rating-box-content">
+                                <!-- <div class="hero-rating-box-content">
                                     <p>Our Word Wide Customer Review</p>
-                                </div>
+                                </div> -->
                                 <!-- Hero Rating Box Content End -->
                             </div>
                             <!-- Hero Rating Box End -->
