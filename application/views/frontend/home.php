@@ -34,24 +34,7 @@
                 <div class="col-xl-6">
                     <!-- Hero Counter Box Start -->
                     <div class="hero-counter-box">
-                        <!-- Hero Counter List Start -->
-                        <div class="hero-counter-list wow fadeInUp">
-                            <!-- Hero Counter Item Start -->
-                            <div class="hero-counter-item">
-                                <!-- <h2><span class="counter">15</span>+</h2>
-                                <p>Years of Experience</p> -->
-                            </div>
-                            <!-- Hero Counter Item End -->
-
-                            <!-- Hero Counter Item Start -->
-                            <div class="hero-counter-item">
-                                <!-- <h2><span class="counter">10</span>+</h2>
-                                <p>Project Completed</p> -->
-                            </div>
-                            <!-- Hero Counter Item End -->
-                        </div>
-                        <!-- Hero Counter List End -->
-
+                     
                         <!-- Hero Counter Footer Start -->
                         <div class="hero-counter-footer wow fadeInUp" data-wow-delay="0.2s">
                             <!-- Hero Social Buttons Start -->
@@ -72,26 +55,7 @@
                             <!-- Hero Social Buttons End -->
 
                             <!-- Hero Rating Box Start -->
-                            <div class="hero-rating-box">
-                                <!-- Hero Rating Box Header Start -->
-                                <div class="hero-rating-box-header">
-                                    <h3><span class="counter">4.9</span></h3>
-                                    <p>
-                                        <i class="fa fa-solid fa-star"></i>
-                                        <i class="fa fa-solid fa-star"></i>
-                                        <i class="fa fa-solid fa-star"></i>
-                                        <i class="fa fa-solid fa-star"></i>
-                                        <i class="fa fa-solid fa-star"></i>
-                                    </p>
-                                </div>
-                                <!-- Hero Rating Box Header End -->
-
-                                <!-- Hero Rating Box Content Start -->
-                                <!-- <div class="hero-rating-box-content">
-                                    <p>Our Word Wide Customer Review</p>
-                                </div> -->
-                                <!-- Hero Rating Box Content End -->
-                            </div>
+                            
                             <!-- Hero Rating Box End -->
                         </div>
                         <!-- Hero Counter Footer End -->
