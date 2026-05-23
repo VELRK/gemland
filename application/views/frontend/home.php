@@ -37,25 +37,8 @@
                      
                         <!-- Hero Counter Footer Start -->
                         <div class="hero-counter-footer wow fadeInUp" data-wow-delay="0.2s">
-                            <!-- Hero Social Buttons Start -->
-                            <div class="hero-social-btns">
-                                <a href="https://wa.me/918110065555" target="_blank" rel="noopener" class="hero-social-btn hsb-whatsapp" aria-label="WhatsApp">
-                                    <span class="hsb-icon"><i class="fa-brands fa-whatsapp"></i></span>
-                                    <span class="hsb-label">WhatsApp</span>
-                                </a>
-                                <a href="https://www.facebook.com/gemhousing/" target="_blank" rel="noopener" class="hero-social-btn hsb-facebook" aria-label="Facebook">
-                                    <span class="hsb-icon"><i class="fa-brands fa-facebook-f"></i></span>
-                                    <span class="hsb-label">Facebook</span>
-                                </a>
-                                <a href="https://www.instagram.com/gem_housing/" target="_blank" rel="noopener" class="hero-social-btn hsb-instagram" aria-label="Instagram">
-                                    <span class="hsb-icon"><i class="fa-brands fa-instagram"></i></span>
-                                    <span class="hsb-label">Instagram</span>
-                                </a>
-                            </div>
-                            <!-- Hero Social Buttons End -->
-
                             <!-- Hero Rating Box Start -->
-                            
+
                             <!-- Hero Rating Box End -->
                         </div>
                         <!-- Hero Counter Footer End -->
@@ -1499,70 +1482,6 @@
     </div>
     <!-- Our Blog Section End -->
 
-    <!-- Hero Social Buttons Style -->
-    <style>
-        .hero-social-btns {
-            display: flex;
-            gap: 12px;
-            flex-wrap: wrap;
-        }
-        .hero-social-btn {
-            display: inline-flex;
-            align-items: center;
-            gap: 9px;
-            padding: 11px 20px;
-            border-radius: 50px;
-            font-size: 14px;
-            font-weight: 700;
-            color: #fff;
-            text-decoration: none;
-            box-shadow: 0 6px 20px rgba(0,0,0,0.25);
-            transition: transform 0.25s, box-shadow 0.25s, filter 0.25s;
-            letter-spacing: 0.3px;
-        }
-        .hero-social-btn:hover {
-            transform: translateY(-3px);
-            box-shadow: 0 10px 28px rgba(0,0,0,0.35);
-            filter: brightness(1.08);
-            color: #fff;
-        }
-        .hsb-icon {
-            width: 32px;
-            height: 32px;
-            border-radius: 50%;
-            background: rgba(255,255,255,0.22);
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            font-size: 17px;
-            flex-shrink: 0;
-        }
-        .hsb-label { font-size: 13px; white-space: nowrap; }
-        /* WhatsApp */
-        .hsb-whatsapp { background: linear-gradient(135deg, #25D366 0%, #128C7E 100%); }
-        /* Facebook */
-        .hsb-facebook { background: linear-gradient(135deg, #1877F2 0%, #0a58ca 100%); }
-        /* Instagram */
-        .hsb-instagram { background: linear-gradient(135deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%); }
-
-        @media (max-width: 767px) {
-            .hero-social-btn {
-                width: 52px;
-                height: 52px;
-                padding: 0;
-                border-radius: 50%;
-                justify-content: center;
-            }
-            .hsb-label { display: none; }
-            .hsb-icon {
-                width: 100%;
-                height: 100%;
-                border-radius: 50%;
-                background: transparent;
-                font-size: 22px;
-            }
-        }
-    </style>
 
     <!-- WhatsApp Floating Button Start -->
     <a href="https://wa.me/918110065555" class="whatsapp-float" target="_blank" rel="noopener noreferrer" aria-label="Chat on WhatsApp">
