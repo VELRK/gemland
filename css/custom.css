@@ -11310,9 +11310,9 @@ header.main-header .header-sticky.active{
 .header-social-icons {
     display: flex;
     align-items: center;
-    gap: 18px;
+    gap: 12px;
     flex-shrink: 0;
-    margin-left: auto;
+    margin-left: 20px;
 }
 .nav-social-icon {
     display: inline-flex !important;
@@ -11323,17 +11323,17 @@ header.main-header .header-sticky.active{
     min-width: 38px;
     border-radius: 50% !important;
     color: #fff !important;
-    font-size: 15px;
+    font-size: 16px;
     text-decoration: none;
     padding: 0 !important;
     line-height: 1;
-    box-shadow: 0 4px 14px rgba(0,0,0,0.3);
+    box-shadow: 0 0 0 2px rgba(255,255,255,0.18), 0 4px 14px rgba(0,0,0,0.3);
     transition: transform 0.25s, box-shadow 0.25s, filter 0.25s;
 }
 .nav-social-icon:hover {
     transform: translateY(-3px);
-    box-shadow: 0 10px 28px rgba(0,0,0,0.35);
-    filter: brightness(1.08);
+    box-shadow: 0 0 0 2px rgba(255,255,255,0.35), 0 10px 28px rgba(0,0,0,0.35);
+    filter: brightness(1.12);
     color: #fff;
 }
 .nav-social-icon.nav-facebook {
@@ -11341,5 +11341,10 @@ header.main-header .header-sticky.active{
 }
 .nav-social-icon.nav-instagram {
     background: linear-gradient(135deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
+}
+@media only screen and (max-width: 991px) {
+    .header-social-icons {
+        display: none;
+    }
 }
 

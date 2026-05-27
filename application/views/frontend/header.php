@@ -64,10 +64,10 @@
                             <li class="nav-item"><a class="nav-link <?php echo ($page === 'contact') ? 'active' : ''; ?>" href="<?php echo site_url('contact'); ?>">Contact Us</a></li>
                         </ul>
                     </div>
-                    <div class="header-social-icons">
-                        <a href="https://www.facebook.com/gemhousing/" target="_blank" rel="noopener" class="nav-social-icon nav-facebook" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
-                        <a href="https://www.instagram.com/gem_housing/" target="_blank" rel="noopener" class="nav-social-icon nav-instagram" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
-                    </div>
+                </div>
+                <div class="header-social-icons">
+                    <a href="https://www.facebook.com/gemhousing/" target="_blank" rel="noopener" class="nav-social-icon nav-facebook" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+                    <a href="https://www.instagram.com/gem_housing/" target="_blank" rel="noopener" class="nav-social-icon nav-instagram" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
                 </div>
                 <div class="navbar-toggle"></div>
             </div>
